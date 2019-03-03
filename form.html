@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="formStyle.css">
+<title>Registrera Dig!</title>
+</head>
+
+<body>
+  <form action="#">
+    <fieldset>
+
+
+      <div class="container">
+
+
+        <label for="phone">
+          <span>Telefonnummer: </span>
+        </label>
+        <input type="text" id="phone" name="tele" />
+        <span id="text"></span>
+
+        <img src="rättbild.png" class="rättbild" alt="rättbild">
+        <img src="felbild.png" class="felbild" alt="felbild">
+
+      </div>
+
+      <label for="fornamn">
+        <br>
+        <span>Förnamn: </span>
+      </label>
+      <input type="text" id="fornamn" name="Förnamn">
+      <span id="shishkebab2"></span>
+      <img src="rättbild.png" class="rättbild2" alt="rättbild">
+      <img src="felbild.png" class="felbild2" alt="felbild">
+      <br><br>
+      <label for="efternamn">
+        <span>Efternamn: </span>
+      </label>
+      <input type="text" id="efternamn" name="Efternamn">
+      <span id="shishkebab"></span>
+      <img src="rättbild.png" class="rättbild3" alt="rättbild">
+      <img src="felbild.png" class="felbild3" alt="felbild">
+      <br><br>
+      <label for="email">
+        <span>Email: </span>
+      </label>
+
+      <input type="text" id="email" name="email">
+      <span id="shishkebab3"></span>
+      <img src="rättbild.png" class="rättbild4" alt="rättbild">
+      <img src="felbild.png" class="felbild4" alt="felbild">
+
+
+      <br>
+      <br>
+      <button type="button" disabled=true id="knapp" name="button">Registrera</button>
+      <div class="felbox">
+        <h3>Telefonnummer får endast innehålla siffor, inga mellanrum,bokstäver eller bindelser.</h3>
+      </div>
+    </fieldset>
+
+
+
+
+
+  </form>
+
+<script src="formJs.js" charset="utf-8"></script>
+
+</body>
+</html>
